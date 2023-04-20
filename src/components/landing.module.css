@@ -1,0 +1,64 @@
+.main {
+  letter-spacing: 5px;
+}
+
+.circle {
+  background-color: #000;
+  width: 650px;
+  height: 650px;
+  border-radius: 500000px;
+  position: relative;
+  left: 25%;
+  top: 3px;
+}
+
+.title h1 {
+  font-size: 120px;
+  color: #fff;
+  position: absolute;
+  left: 540px;
+  top: 40px;
+  z-index: 5;
+}
+
+.sub h1 {
+  font-size: 120px;
+  color: #fff;
+  position: absolute;
+  left: 480px;
+  top: 190px;
+  z-index: 5;
+}
+
+.subtle h1 {
+  font-size: 120px;
+  color: #fff;
+  position: absolute;
+  left: 490px;
+  top: 350px;
+  z-index: 5;
+}
+
+.button {
+  font-size: 120px;
+  color: #fff;
+  position: absolute;
+  left: 570px;
+  top: 450px;
+  z-index: 5;
+}
+
+.button button {
+  font-size: 30px;
+  font-weight: 300;
+  width: 200px;
+  height: 50px;
+  border-radius: 999px;
+  background-color: #ff6107;
+  border: none;
+  cursor: pointer;
+}
+
+.button button:hover {
+  background-color: #fff;
+}
