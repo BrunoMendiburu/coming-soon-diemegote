@@ -15,7 +15,7 @@ const Landing = () => {
         <h1>TIMES</h1>
       </div>
       <div className={styles.button}>
-        <Link href="info/Second">
+        <Link href="/segunda/second">
           <button>NEXT</button>
         </Link>
       </div>
