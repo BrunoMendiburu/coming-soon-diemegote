@@ -7,12 +7,12 @@ const Second = () => {
     {
       id: 1,
       title: "STATS CALCULATOR",
-      link: "#",
+      link: "/stats/statsCalc",
     },
     {
       id: 2,
       title: "LAST CHAMP STATS",
-      link: "#",
+      link: "/champLast/champlast",
     },
     {
       id: 3,
