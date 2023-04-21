@@ -17,12 +17,12 @@ const Second = () => {
     {
       id: 3,
       title: "MAKE YOUR TOP 10 GOAT",
-      link: "#",
+      link: "/goats/topten",
     },
     {
       id: 4,
       title: "1 CHAMP 1 FACT",
-      link: "#",
+      link: "/unchamp/unchamp",
     },
   ]
 
@@ -31,9 +31,11 @@ const Second = () => {
       <div className={styles.container_cards}>
         {cardInfo.map(({ id, title, link }) => {
           return (
-            <div key={id} className={styles.card}>
-              <h1>{title}</h1>
-            </div>
+            <Link key={id} href={link} className={styles.container_links}>
+              <div className={styles.card}>
+                <h1>{title}</h1>
+              </div>
+            </Link>
           )
         })}
       </div>
